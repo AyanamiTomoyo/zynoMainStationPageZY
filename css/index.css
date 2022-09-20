@@ -1,0 +1,188 @@
+  * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+  }
+
+  .d {
+      display: flex;
+      /* height: 100px; */
+
+
+  }
+
+  #bg {
+      /* background-image: url(/img/EDONA2.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+
+  .ds {
+      /* flex-direction: row; */
+      margin: 20px 20px 20px 20px;
+  }
+
+
+  /* body {
+      background: #ccc;
+  } */
+
+  #container {
+
+      width: 1613px;
+      height: 700px;
+      margin: 0 auto;
+  }
+
+  #pic {
+      /* transform: scale(50%, 50%); */
+      max-width: 100px;
+      max-height: 50px;
+  }
+
+  .formWidth {
+      width: 35%;
+  }
+
+  #logo {
+      /* float: left; */
+
+      /* left: 35%; */
+      /* position: fixed; */
+      /* flex-direction: row; */
+      /* top: 50%; */
+      /* left: 50%; */
+      /* display: inline-block; */
+      /* min-width: 10%; */
+      /* min-height: 10%; */
+      /* transform: scale(100%, 100%); */
+      /* max-width: 100px;
+      max-height: 100px; */
+  }
+
+  .dis {
+      flex-direction: column;
+      margin: 0 0 30px 30px;
+  }
+
+  form {
+      position: fixed;
+      background: #fafafa;
+      border-radius: 30px;
+      /* left: 35%; */
+      /* float: right; */
+  }
+
+  #search-input {
+      font-family: "STHupo";
+
+      padding: 4px 10px;
+      width: 85%;
+      height: 50px;
+      line-height: 50px;
+      position: relative;
+      cursor: pointer;
+      color: #888;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      font-size: 34px;
+      border-radius: 30px;
+      text-indent: 30px;
+      /* left: 50px; */
+
+      /* font-size: 44px;
+      outline: none;
+      width: 500px;
+      height: 50px;
+      line-height: 50px;
+      float: left;
+      border: 0; */
+  }
+
+  #search-button {
+      background-image: url(../img/search.png);
+      background-repeat: no-repeat;
+      /* background-color: white; */
+      background-color: #fafafa;
+      width: 40px;
+      height: 30px;
+      float: right;
+      border: 0;
+      margin: 13px;
+
+
+  }
+
+  #wrapper1 {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      top: 200px;
+      left: 30%;
+  }
+
+  #wrapper2 {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      top: 300px;
+      left: 30%;
+  }
+
+  #wrapper3 {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      top: 400px;
+      left: 30%;
+  }
+
+
+  .connect {
+      border-radius: 20px;
+      width: 70px;
+      height: 70px;
+      margin: -100 0 0 0;
+  }
+
+  .label {
+
+      display: flex;
+      position: fixed;
+      /* flex-direction: row; */
+      flex-wrap: wrap;
+      width: 50%;
+      /* height: 0; */
+      top: 550px;
+      left: 28%;
+      margin: -55px auto;
+      bottom: 0;
+      overflow-y: scroll;
+
+  }
+
+  .tdLabel {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 7% 7%;
+
+  }
+
+  div>a {
+      text-align: center;
+      color: gold;
+      letter-spacing: 0;
+      text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+  }
+
+
+  .groupLabel {
+      height: 5%;
+  }
