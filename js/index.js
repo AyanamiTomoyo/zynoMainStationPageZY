@@ -1,12 +1,28 @@
 //背景变更
 function UpdateImg() {
     var num;
-    num = Math.floor(Math.random() * 10) + 3;
+    num = Math.floor(Math.random() * 12);
     console.log(num);
-    var path;
-    path = 'url(./img/' + num + '.jpg)';
+    var path = ["https://s3.bmp.ovh/imgs/2022/09/21/2146c23d97e99db1.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/145173a79e0dbcfe.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/87a7a649bb82a16b.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/f2950c14901d1704.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/ea29f27cf9b90983.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/7618a3d4f8061601.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/5d92fca61f09253f.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/c252e8959e215ef1.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/bf800e662404133e.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/e8694ec2c32073a2.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/6f142364e3267315.jpg",
+        "https://s3.bmp.ovh/imgs/2022/09/21/e40aa15b9b90d159.jpg"
+    ];
+    console.log(path[num]);
+    var res = 'url(' + path[num] + ')';
+    // var path;
+    // path = 'url(./img/' + num + '.jpg)';
+
+    document.getElementById('bg').style.backgroundImage = res;
     console.log(document.getElementById('bg'));
-    document.getElementById('bg').style.backgroundImage = path;
 }
 
 
@@ -83,10 +99,10 @@ script.onload = script.onreadystatechange = function () {
 head.appendChild(script);
 
 
-btn.src = 'https://res.zvo.cn/translate/translate.js';
-btn.onclick = function () {
-    alert(text.value);
-}
+// btn.src = 'https://res.zvo.cn/translate/translate.js';
+// btn.onclick = function () {
+//     alert(text.value);
+// }
 
 
 // function googleTranslateElementInit() {
